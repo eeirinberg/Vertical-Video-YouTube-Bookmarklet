@@ -253,3 +253,41 @@ footer {
     color:#444;
   }
 }
+
+.myButtonGreen:hover { 
+  background-color:#4DB267; 
+} 
+
+.myButtonGreen:active { 
+  position:relative; top:1px; 
+}
+
+.myButtonBlue { 
+  background-color:#3B97D3;
+  -moz-border-radius:11px; 
+  -webkit-border-radius:11px; 
+  border-radius:11px; 
+  display:inline-block; 
+  cursor:pointer; 
+  color:#ffffff; 
+  font-family:'Montserrat', sans-serif; 
+  font-size:17px; 
+  padding:10px 25px; 
+  text-decoration:none; 
+  border:0;
+  margin-bottom:10px;
+  margin-left:30px;
+
+  } 
+
+.myButtonBlue:hover { 
+  background-color:#3391C4; 
+} 
+
+.myButtonBlue:active { 
+  position:relative; top:1px; 
+}
+
+section{
+  margin-top:200px;
+}
