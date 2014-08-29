@@ -27,31 +27,19 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
         <h1>Vertical Video YouTube Bookmarklet</h1>
         <p>Watch vertical videos on YouTube the right way.</p>
-
-        <p class="view"><a href="https://github.com/eeirinberg/Vertical-Video-YouTube-Bookmarklet">View the Project on GitHub <small>eeirinberg/Vertical-Video-YouTube-Bookmarklet</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/eeirinberg/Vertical-Video-YouTube-Bookmarklet/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/eeirinberg/Vertical-Video-YouTube-Bookmarklet/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/eeirinberg/Vertical-Video-YouTube-Bookmarklet">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
       <section>
-
-
+      <h2>Steps</h2>
         <p>1. Drag the button below to your bookmarks. <br><br>2. Go to a vertical video on YouTube like <a href="https://www.youtube.com/watch?v=17uHCHfgs60">this one</a>.<br><br>
         3. Click on your bookmark.
         </p>
                 <a class="myButtonBlue" href="javascript:var script = document.createElement('script');script.src = 'https://code.jquery.com/jquery-1.11.0.min.js';script.type = 'text/javascript';document.getElementsByTagName('head')[0].appendChild(script); setTimeout(function(){var pathname = $(location).attr('href'); var vidId = pathname.replace(&quot;https://www.youtube.com/watch?v=&quot;, &quot;&quot;); $('#player').replaceWith(&quot;<iframe id='ytplayer' style='margin-left:280px;'type='text/html' width='200' height='200' src='https://www.youtube.com/embed/&quot; + vidId + &quot;'frameborder='0'/>&quot;); $(function() {  var $allVideos = $(&quot;iframe[src^='https://www.youtube.com']&quot;),  $fluidEl = $(&quot;body&quot;);  $allVideos.each(function() { $(this) .data('aspectRatio', this.height / this.width) .removeAttr('height') .removeAttr('width'); });  $(window).resize(function() { var newWidth = $fluidEl.width();  $allVideos.each(function() { var $el = $(this); $el .width(338.02816901408454) .height(600); }); }).resize(); });}, 300);">Vertical Video</a>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/eeirinberg">eeirinberg</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+    </div>
+    <div class="center">
+      <img src="HV.png" style="height:200px;">
+      <img src="VV.png" style="height:200px;">
     </div>
     <script src="javascripts/scale.fix.js"></script>
   </body>
